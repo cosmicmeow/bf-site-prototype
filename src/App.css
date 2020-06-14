@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
+body {
+	color: #1d2b3a;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Viga', sans-serif;
+	letter-spacing: 1px;
+}
+
+p {
+	font-family: 'Avenir', sans-serif;
+}
+
+a {
+	color: #45b9e2;
+	text-decoration: none;
+}
+
+.root {
+}
+
+.container {
+	width: 100%;
+}
+
+.hellobar {
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	background-color: #3499bd;
+}
+
+.banner {
+	height: 420px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: url('./assets/header_background.png') no-repeat center;
+	background-size: cover;
+}
+
+.banner-title {
+	display: flex;
+	flex-direction: column;
+	max-width: 400px;
+	text-align: center;
+	color: white;
+}
+
+.social-links {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+}
+
+.social-icon {
+	margin: 0 5px;
+}
+
+.about {
+	display: flex;
+	padding-top: 60px;
+	padding-bottom: 70px;
+	justify-content: center;
+	align-items: center;
+}
+
+.about-image {
+	width: 250px;
+	height: 250px;
+	background: #eee;
+	border: white 1px solid;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 4px 4px 11px 1px rgba(0, 0, 0, 0.06);
+}
+
+.about-text {
+	max-width: 500px;
+	margin-left: 50px;
+}
+
+.bret-image {
+	width: 100%;
+	height: auto;
+	margin-top: -40px;
+}
